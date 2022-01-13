@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		431DE99A2756BE7D0069F64F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431DE9992756BE7D0069F64F /* AppDelegate.swift */; };
 		431DE99C2756BE7D0069F64F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431DE99B2756BE7D0069F64F /* SceneDelegate.swift */; };
-		431DE99E2756BE7D0069F64F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431DE99D2756BE7D0069F64F /* ViewController.swift */; };
+		431DE99E2756BE7D0069F64F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431DE99D2756BE7D0069F64F /* ListViewController.swift */; };
 		431DE9A12756BE7D0069F64F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431DE99F2756BE7D0069F64F /* Main.storyboard */; };
 		431DE9A32756BE800069F64F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431DE9A22756BE800069F64F /* Assets.xcassets */; };
 		431DE9A62756BE800069F64F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431DE9A42756BE800069F64F /* LaunchScreen.storyboard */; };
+		431DE9AE2756D5280069F64F /* Creatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431DE9AD2756D5280069F64F /* Creatures.swift */; };
+		431DE9B027573FD40069F64F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431DE9AF27573FD40069F64F /* DetailViewController.swift */; };
+		431DE9B22757556D0069F64F /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431DE9B12757556D0069F64F /* Creature.swift */; };
+		4370DC4B2757CDC50006FE56 /* CreatureDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4370DC4A2757CDC50006FE56 /* CreatureDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		431DE9962756BE7D0069F64F /* Catch 'em All.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catch 'em All.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		431DE9992756BE7D0069F64F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		431DE99B2756BE7D0069F64F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		431DE99D2756BE7D0069F64F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		431DE99D2756BE7D0069F64F /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		431DE9A02756BE7D0069F64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		431DE9A22756BE800069F64F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		431DE9A52756BE800069F64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		431DE9A72756BE800069F64F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431DE9AD2756D5280069F64F /* Creatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creatures.swift; sourceTree = "<group>"; };
+		431DE9AF27573FD40069F64F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		431DE9B12757556D0069F64F /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		4370DC4A2757CDC50006FE56 /* CreatureDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				431DE9992756BE7D0069F64F /* AppDelegate.swift */,
 				431DE99B2756BE7D0069F64F /* SceneDelegate.swift */,
-				431DE99D2756BE7D0069F64F /* ViewController.swift */,
+				431DE9B12757556D0069F64F /* Creature.swift */,
+				431DE9AD2756D5280069F64F /* Creatures.swift */,
+				4370DC4A2757CDC50006FE56 /* CreatureDetail.swift */,
+				431DE99D2756BE7D0069F64F /* ListViewController.swift */,
+				431DE9AF27573FD40069F64F /* DetailViewController.swift */,
 				431DE99F2756BE7D0069F64F /* Main.storyboard */,
 				431DE9A22756BE800069F64F /* Assets.xcassets */,
 				431DE9A42756BE800069F64F /* LaunchScreen.storyboard */,
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				431DE99E2756BE7D0069F64F /* ViewController.swift in Sources */,
+				431DE9AE2756D5280069F64F /* Creatures.swift in Sources */,
+				431DE99E2756BE7D0069F64F /* ListViewController.swift in Sources */,
+				431DE9B22757556D0069F64F /* Creature.swift in Sources */,
+				431DE9B027573FD40069F64F /* DetailViewController.swift in Sources */,
+				4370DC4B2757CDC50006FE56 /* CreatureDetail.swift in Sources */,
 				431DE99A2756BE7D0069F64F /* AppDelegate.swift in Sources */,
 				431DE99C2756BE7D0069F64F /* SceneDelegate.swift in Sources */,
 			);
